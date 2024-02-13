@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="home.css">
+    <title>Login Page </title>
+    <style>
+        
+        .win{
+  width: 100%;
+  height: auto;
+}
+.hlo {
+    font-size: calc(15px + 0.390625vw);
+}
+    </style>
+</head>
+
+<body>
+   
+    <section class="won">
+        <img src="images/mainbg.png" width="1400px" height="60px" class="win">
+    </section><br>
+    <div class="hlo">
+          <h1 data-shadow='Techie Hub by CSE department'>Techie Hub by CSE department</h1>
+    </div>
+    <div class="container" id="container">
+        <div class="form-container sign-up">
+            <form>
+                <h1>Create Account</h1>
+                <!--<div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>-->
+                <span>Please enter your details</span>
+                <input type="text" placeholder="Roll number">
+                <input type="text" placeholder="Name">
+                <input type="text" placeholder="Branch ">
+                <input type="text" placeholder="Year/Section eg.3/CSE-D">
+                <input type="text" placeholder="Email ID">
+                <input type="password" placeholder="Set a Password">
+                <button>Register</button>
+            </form>
+        </div>
+        <div class="form-container sign-in">
+            <form>
+                <h1>Login</h1>
+                <!--<div class="social-icons">
+                    <a href="#" class="icon"><i class="fa-brands fa-google-plus-g"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-facebook-f"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-github"></i></a>
+                    <a href="#" class="icon"><i class="fa-brands fa-linkedin-in"></i></a>
+                </div>--> <br>
+                <span>Enter your Credentials</span><br>
+                <input type="email" placeholder="Email Id">
+                <input type="password" placeholder="Password">
+                <a href="forgetpwd.html">Forget Your Password?</a>
+                <button>Login</button>
+            </form>
+        </div>
+        <div class="toggle-container">
+            <div class="toggle">
+                <div class="toggle-panel toggle-left">
+                    <h1>Hello, Friend!</h1>
+                    <p>Register with your details for a crazy drive!!
+                        Already having an account then click below to login
+                    </p>
+                    <button class="hidden" id="login">Login</button>
+                </div>
+                <div class="toggle-panel toggle-right">
+                    <h1>Welcome Back!</h1>
+                    <p>Don't have an account create it by clicking below</p>
+                    <button class="hidden" id="register">Register</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

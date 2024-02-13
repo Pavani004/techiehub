@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="stylesheet" href="home.js">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;900&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/f2a4b9346f.js" crossorigin="anonymous"></script>
+    <style>
+     
+      
+      @media(max-width: 700px){
+        .intro h3{
+          font-size: 20px;
+        }
+        .text h3{
+          font-size: 25vw;
+        }
+        .card h2{
+          font-size: 20px
+        }
+        .card p{
+          font-size: 2vw;
+          line-height: 1;
+        }
+       
+        .card--display i{
+          font-size: 20px;
+        }
+        }
+       
+        .x,
+.y,
+.z{
+  width: 500px;
+  height: 300px;
+  padding: 20px;
+  background-color: wheat;
+  overflow: auto;
+  border-radius: 10px;
+  box-shadow: 0 9px 8px rgba(0,0,0,0.1);
+}
+.header{
+    margin-top: 0;
+    padding: 0;
+   
+}
+.google-map {
+     padding-bottom: 50%;
+     position: relative;
+}
+.google-map h1{
+  text-align: center;
+  text-shadow: 2px 2px #f0e619;
+  color: rgb(79, 24, 151);
+  font-weight: 400;
+  font-family: cursive;
+}
+
+.google-map iframe {
+     height: 82%;
+     width: 95%;
+     left: 0;
+     padding-top: 80px;
+     top: 0;
+     position: absolute;
+     padding-left: 90px;
+}
+body{
+  background: linear-gradient(90deg,darkblue 0%,darkblue 30%,skyblue 30%,skyblue 100%);
+}
+.conform{
+  padding-left: 20vw;
+}
+@media (max-width:1280px){
+  .auto{
+    padding-left: 55vw;
+    align-items: flex-start;
+  }
+}
+#contactcon{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.contactcon{
+  position: relative;
+  min-height: 30vh;
+  padding: 10px 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.contactcon .contactinfo{
+  max-width: 500px;
+  text-align: center;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+}
+.contactcon .contactinfo .p{
+  position: relative;
+  padding: 20px 0;
+  display: flex;
+}
+.contactcon .contactinfo .p .icon1{
+  min-height: 30px;
+  height: 50px;
+  width: 50px;
+  background: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  font-size: 22px;
+}
+.contactcon .contactinfo .p .text1{
+  display: flex;
+  margin-left: 5px;
+  font-size: 16px;
+  color: white;
+  flex-direction: column;
+  font-weight: 300;
+}
+.contactcon .contactinfo .p .text1 h3{
+  font-weight: 500;
+  color: rgb(2, 85, 161);
+  text-align: left;
+}
+.contactcon .contactinfo h3{
+  font-size: 36px;
+  font-weight: 500;
+  color: white;
+}
+.contactcon .contactinfo p{
+  text-align: left;
+  font-weight: 550;
+  color: white;
+}
+.contactcon{
+  width: 100%;
+  display: flex;
+ 
+  justify-content: left;
+  align-items: center;
+  margin-top: 30px;
+}
+    </style>
+</head>
+<body>
+  <!-------------header image-------------->
+  <div class="header">
+    <img src="images/cbg.png" height="150px" width="1400px" alt="nature" class="responsive">
+  </div>
+
+    <!------------------Navbar----------->
+    <section id="nav-bar">
+      <nav class="navbar navbar-expand-lg bg-body-tertiary">
+          <div class="container-fluid">
+            <a class="navbar-brand" href="index.html"><img src="images/logo.png" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <i class="fa-solid fa-bars" style="color: #f7f9fc;"></i>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <div class="auto">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link " aria-current="page" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="alumni.html">Members</a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                    Events
+                  </a>
+                  <ul class="dropdown-menu">
+                   <li><a class="dropdown-item" href="competitions.html">Competitions</a></li>
+                   <li><a class="dropdown-item" href="upcomingevents.html">Upcoming Events</a></li>
+                   <li><a class="dropdown-item" href="#">Past Events</a></li>
+                  </ul>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="contactUs.html">Contact Us</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        </nav>
+        
+      </section>
+<!------------------------------map--------------------------->
+<div class="google-map"><br>
+  <h1>Reach us</h1><br>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3803.8935361507174!2d78.45560231943544!3d17.56025478375562!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb8f774f347fcb%3A0xeffae3c47174c12d!2sMalla%20Reddy%20College%20of%20Engineering%20(MRCE)!5e0!3m2!1sen!2sin!4v1705504058959!5m2!1sen!2sin" width="60" height="45" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+<!----------------------------Form--------------------------->
+<div class="conform">
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe2Sw5xLGsKMqTrX5tTr5n3HESBAmXBurktzK1jL04XBGNbTQ/viewform?usp=sf_link" width="840" height="797" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+<br><br>
+<!----------------------------content------------------>
+<section class="contactcon">
+  <div class="contactinfo">
+    <div class="p">
+      <div class="icon1"><i class="fa-solid fa-map-location-dot"></i></div>
+      <div class="text1">
+        <h3>Address</h3>
+        <p> Maisamaguda, Dhulapally,post via Kompally,Secunderabad-500100</p>
+      </div>
+    </div>
+    <div class="p">
+      <div class="icon1"><i class="fa-regular fa-envelope"></i></div>
+      <div class="text1">
+        <h3>Email</h3>
+        <p> Techiehubadmin@gmail.com</p>
+      </div>
+    </div>
+    <div class="p">
+      <div class="icon1"><i class="fa-solid fa-phone"></i></div>
+      <div class="text1">
+        <h3>Phone</h3>
+        <p> +91 1234567895</p>
+      </div>
+    </div>
+  </div>
+</section>
+</div>
+<!---------------Footer-------------------->
+<footer>
+  <div class="row">
+      <div class="col">
+        <a href="https://mrce.in/"><img src="images/footer_logo.png" class="logo"></a>
+        <p>For any college related queries please refer our Official website. Stay tuned to this website regularly for information regarding compettions being held.</p>
+      </div>
+      <div class="col">
+        <h3>Techie-hub@MRCE</h3>
+        <p>Mysammaguda</p>
+        <p>Medchal, PIN 500034, India</p>
+        <a href="contactUs.html"><p class="email-id">tpavani04@email.com</p></a>
+            <h4>+91 - 0123456789</h4>
+          </div>
+        <div class="col">
+        <h3>Links <div class="underline"><span></span></div></h3>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About Us</a></li>
+          <li><a href="gallery.html">Gallery</a></li>
+          <li><a href="competitions.html">Events</a></li>
+          <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
+      </div>
+      <div class="col">
+        <h3>Blog<div class="underline"><span></span></div></h3>
+        <!--<form>
+          <i class="fa-regular fa-envelope"></i>
+          <input type="email" placeholder="Enter your email id">
+          <button type="submit"><i class="fa-solid fa-arrow-right" style="color: white; font-size: 16px;"></i></button>
+        </form>-->
+        <a href="https://techiehublog.wordpress.com/2024/01/19/exploring-the-thriving-world-of-computer-science-events-and-cutting-edge-technologies-in-college/"><button class="button">Visit the blog</button><br><br><br><br></a>
+        <div class="social-icons">
+          <a href=""><i class="fa-brands fa-facebook"></i></a>
+          <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+          <a href=""><i class="fa-brands fa-instagram"></i></a>
+          <a href=""><i class="fa-brands fa-linkedin"></i></a>
+        </div>
+      </div>
+    </div>
+    <hr>
+    <p class="copyright">&copy; Techie hub <i class="fa-regular fa-copyright"></i> 2023 - All Rights Reserved </p>
+  </footer>
+  </body>
+  </html>
